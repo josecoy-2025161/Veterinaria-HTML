@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Servicios</title>
+    <title>Citas - Angel Esteban García Jiménez</title>
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
@@ -22,13 +22,48 @@
 
 <main>
     <section class="section">
+        <div class="identificacion-estudiante">
+            <p><strong>Estudiante:</strong> Angel Esteban García Jiménez 2025261</p>
+            <h2>Pagina Citas</h2>
+        </div>
+
+        <hr>
+
         <h1>Agenda tu cita</h1>
         <p>Horario de atención: Lunes a Sábado de 8:00 a.m. a 6:00 p.m.</p>
+
+        <form action="#" method="POST" class="form-citas">
+            <fieldset>
+                <legend>Datos del Propietario y Mascota</legend>
+                
+                <label for="nombre-dueno">Nombre del Dueño:</label>
+                <input type="text" id="nombre-dueno" name="nombre-dueno" required>
+
+                <label for="nombre-mascota">Nombre de la Mascota:</label>
+                <input type="text" id="nombre-mascota" name="nombre-mascota" required>
+
+                <label for="fecha">Fecha de la Cita:</label>
+                <input type="date" id="fecha" name="fecha" required>
+
+                <label for="motivo">Motivo de la Cita:</label>
+                <select id="motivo" name="motivo">
+                    <option value="consulta">Consulta General</option>
+                    <option value="vacuna">Vacunación</option>
+                    <option value="estetica">Estética</option>
+                    <option value="cirugia">Cirugía</option>
+                </select>
+
+                <label for="notas">Notas adicionales:</label>
+                <textarea id="notas" name="notas" rows="3"></textarea>
+            </fieldset>
+
+            <button type="submit">Enviar Solicitud</button>
+        </form>
     </section>
 </main>
 
 <footer>
-    <p>Huellitas Felices</p>
+    <p>Huellitas Felices - Angel Esteban García Jiménez 2025261</p>
 </footer>
 
 </body>
