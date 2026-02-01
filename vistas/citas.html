@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Citas - Angel Esteban García Jiménez</title>
+    <title>Citas | Huellitas Felices</title>
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
@@ -22,17 +22,11 @@
 
 <main>
     <section class="section">
-        <div class="identificacion-estudiante">
-            <p><strong>Estudiante:</strong> Angel Esteban García Jiménez 2025261</p>
-            <h2>Pagina Citas</h2>
-        </div>
-
-        <hr>
 
         <h1>Agenda tu cita</h1>
         <p>Horario de atención: Lunes a Sábado de 8:00 a.m. a 6:00 p.m.</p>
 
-        <form action="#" method="POST" class="form-citas">
+        <form class="form-citas">
             <fieldset>
                 <legend>Datos del Propietario y Mascota</legend>
                 
@@ -41,6 +35,10 @@
 
                 <label for="nombre-mascota">Nombre de la Mascota:</label>
                 <input type="text" id="nombre-mascota" name="nombre-mascota" required>
+                
+                <label for="edad-mascota">Edad de la Mascota:</label>
+                <input type="number" id="edad-mascota" name="edad-mascota" min="0" required>
+
 
                 <label for="fecha">Fecha de la Cita:</label>
                 <input type="date" id="fecha" name="fecha" required>
