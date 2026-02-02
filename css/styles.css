@@ -518,3 +518,111 @@ footer {
         height: 200px;
     }
 }
+
+/* sección de servicios */
+.section-servicios {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.section-servicios h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    color: #1a5e37;
+    margin-bottom: 10px;
+}
+
+.section-servicios > p {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 40px;
+    color: #555;
+    font-size: 1rem;
+}
+
+/* grid de servicios */
+.section-servicios {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+/* card servicios */
+.servicio {
+    background: #ffffff;
+    border-radius: 18px;
+    padding: 30px 25px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+/* efecto hover */
+.servicio:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 22px 45px rgba(0,0,0,0.18);
+}
+
+/* franja decorativa */
+.servicio::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 6px;
+    width: 100%;
+    background: linear-gradient(90deg, #1a5e37, #4caf50);
+}
+
+/* titulo */
+.servicio h3 {
+    font-size: 1.3rem;
+    color: #1a5e37;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* texto */
+.servicio p {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* sección compromisos */
+.section-compromiso {
+    max-width: 900px;
+    margin: 70px auto;
+    padding: 40px 30px;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 18px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+}
+
+.section-compromiso h2 {
+    font-size: 2rem;
+    color: #1a5e37;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.section-compromiso p {
+    font-size: 1.05rem;
+    color: #555;
+    line-height: 1.7;
+}
+
+@media (max-width: 600px) {
+    .section-header-servicios h1 {
+        font-size: 2.2rem;
+    }
+
+    .section-compromiso {
+        padding: 30px 20px;
+    }
+}
