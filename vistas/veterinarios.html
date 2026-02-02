@@ -2,17 +2,18 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Veterinarios - Huellitas Felices</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veterinarios | Huellitas Felices</title>
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
 
 <header>
-    <nav>
+    <nav aria-label="Menú principal">
         <ul>
             <li><a href="../index.html">Inicio</a></li>
             <li><a href="servicios.html">Servicios</a></li>
-            <li><a href="veterinarios.html">Veterinarios</a></li>
+            <li><a href="veterinarios.html" aria-current="page">Veterinarios</a></li>
             <li><a href="citas.html">Citas</a></li>
             <li><a href="tienda.html">Tienda</a></li>
             <li><a href="contacto.html">Contacto</a></li>
@@ -21,51 +22,91 @@
 </header>
 
 <main>
-    <section class="section">
-        <h1>Nuestro equipo médico</h1>
-        <p>Conoce a los expertos dedicados a la salud y bienestar de tus mascotas.</p>
-        
+    <section class="section equipo">
+        <header class="section-header">
+            <h1>Nuestro equipo médico</h1>
+            <p>Conoce a los expertos dedicados a la salud y bienestar de tus mascotas.</p>
+        </header>
+
         <div class="equipo-grid">
-            
+
+            <!-- Veterinario 1 -->
             <article class="veterinario-card">
-                <img src="../img/vet1.jpg" alt="Dr. Alberto García">
+                <img src="../img/veterinarios/vet1.jpg" alt="Dr. Alberto García, especialista en cirugía veterinaria">
+                
                 <div class="info-vet">
                     <h3>Dr. Alberto García</h3>
-                    <p class="especialidad">Especialista en Cirugía General</p>
-                    <p class="bio">Más de 10 años de experiencia en procedimientos quirúrgicos complejos y traumatología animal.</p>
+                    <p class="especialidad">Cirugía General</p>
+                    <p class="bio">
+                        Más de 10 años de experiencia en procedimientos quirúrgicos complejos y traumatología animal.
+                    </p>
+
                     <ul class="detalles">
-                        <li><strong>Horario:</strong> Lunes a Viernes (8:00 - 16:00)</li>
+                        <li><strong>Horario:</strong> Lunes a Viernes (8:00 – 16:00)</li>
                         <li><strong>Certificación:</strong> Colegio Médico Veterinario</li>
                     </ul>
-                    <a href="citas.html" class="btn-cita">Agendar Cita</a>
+
+                    <a href="citas.html" class="btn-cita">Agendar cita</a>
                 </div>
             </article>
 
+            <!-- Veterinario 2 -->
             <article class="veterinario-card">
-                <img src="../img/vet2.jpg" alt="Dra. Lucía Méndez">
+                <img src="../img/veterinarios/vet2.jpg" alt="Dra. Lucía Méndez, especialista en dermatología veterinaria">
+                
                 <div class="info-vet">
                     <h3>Dra. Lucía Méndez</h3>
-                    <p class="especialidad">Especialista en Dermatología</p>
-                    <p class="bio">Experta en el tratamiento de alergias y enfermedades de la piel en perros y gatos de todas las razas.</p>
+                    <p class="especialidad">Dermatología</p>
+                    <p class="bio">
+                        Experta en el tratamiento de alergias y enfermedades de la piel en perros y gatos.
+                    </p>
+
                     <ul class="detalles">
-                        <li><strong>Horario:</strong> Martes a Sábado (10:00 - 18:00)</li>
+                        <li><strong>Horario:</strong> Martes a Sábado (10:00 – 18:00)</li>
                         <li><strong>Certificación:</strong> Postgrado en Medicina Felina</li>
                     </ul>
-                    <a href="citas.html" class="btn-cita">Agendar Cita</a>
+
+                    <a href="citas.html" class="btn-cita">Agendar cita</a>
                 </div>
             </article>
 
+            <!-- Veterinario 3 -->
             <article class="veterinario-card">
-                <img src="../img/vet3.jpg" alt="Dra. Elena Rivas">
+                <img src="../img/veterinarios/vet3.jpg" alt="Dra. Elena Rivas, especialista en animales exóticos">
+                
                 <div class="info-vet">
                     <h3>Dra. Elena Rivas</h3>
-                    <p class="especialidad">Especialista en Animales Exóticos</p>
-                    <p class="bio">Dedicada al cuidado de aves, reptiles y pequeños mamíferos, brindando atención especializada y preventiva.</p>
+                    <p class="especialidad">Animales Exóticos</p>
+                    <p class="bio">
+                        Atención especializada para aves, reptiles y pequeños mamíferos, con enfoque preventivo.
+                    </p>
+
                     <ul class="detalles">
-                        <li><strong>Horario:</strong> Lunes, Miércoles y Viernes (9:00 - 17:00)</li>
+                        <li><strong>Horario:</strong> Lunes, Miércoles y Viernes (9:00 – 17:00)</li>
                         <li><strong>Certificación:</strong> Asociación de Especialistas Exóticos</li>
                     </ul>
-                    <a href="citas.html" class="btn-cita">Agendar Cita</a>
+
+                    <a href="citas.html" class="btn-cita">Agendar cita</a>
+                </div>
+            </article>
+
+            <!-- Veterinario 4 -->
+            <article class="veterinario-card">
+                <img src="../img/veterinarios/vet4.jpg" alt="Dr. Carlos Ramírez, especialista en medicina interna veterinaria">
+            
+                <div class="info-vet">
+                    <h3>Dr. Carlos Ramírez</h3>
+                    <p class="especialidad">Medicina Interna</p>
+                    <p class="bio">
+                        Diagnóstico y tratamiento de enfermedades crónicas, metabólicas y digestivas en mascotas.
+                    </p>
+            
+                    <ul class="detalles">
+                        <li><strong>Horario:</strong> Lunes a Viernes (8:00 – 15:00)</li>
+                        <li><strong>Certificación:</strong> Especialista en Medicina Interna Veterinaria</li>
+                    </ul>
+            
+                    <a href="citas.html" class="btn-cita">Agendar cita</a>
                 </div>
             </article>
 
@@ -74,7 +115,7 @@
 </main>
 
 <footer>
-    <p>&copy; 2026 Huellitas Felices - Cuidando a tus mejores amigos</p>
+    <p>&copy; 2026 Huellitas Felices</p>
 </footer>
 
 </body>
