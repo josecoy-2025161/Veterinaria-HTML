@@ -26,18 +26,39 @@ El sitio cuenta con un **menú de navegación principal** y **cinco vistas**, ca
 veterinaria-huellitas/
 │
 ├── index.html
+│
 ├── vistas/
-│ ├── servicios.html
-│ ├── veterinarios.html
-│ ├── citas.html
-│ ├── tienda.html
-│ └── contacto.html
+│   ├── servicios.html
+│   ├── veterinarios.html
+│   ├── citas.html
+│   ├── tienda.html
+│   └── contacto.html
 │
 ├── css/
-│ └── styles.css
+│   └── styles.css
+│
+├── img/
+│   ├── menu/
+│   │   ├── hero-mascotas.jpg
+│   │   ├── consulta.jpg
+│   │   ├── mascotas.jpg
+│   │   └── tienda.jpg
+│   │
+│   ├── tienda/
+│   │   ├── accesorio.jpg
+│   │   ├── alimento.jpg
+│   │   ├── juguete.jpg
+│   │   └── medicina.jpg
+│   │
+│   └── veterinarios/
+│       ├── vet1.jpg
+│       ├── vet2.jpg
+│       ├── vet3.jpg
+│       └── vet4.jpg
+│
+├── LICENSE
 │
 └── README.md
-
 
 ---
 
