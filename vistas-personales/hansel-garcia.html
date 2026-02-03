@@ -4,96 +4,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Perfil Personal | Hansel Antonio Garcia Gutierrez</title>
-    <link rel="stylesheet" href="../css/styles.css">
-    <style>
-        /* Estilos específicos para que esta página se vea más personal */
-        .perfil-hero {
-            background: linear-gradient(135deg, #166534, #166534);
-            color: white;
-            padding: 60px 20px;
-            text-align: center;
-        }
-        .foto-perfil {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            border: 5px solid white;
-            margin-bottom: 20px;
-            object-fit: cover;
-        }
-        .lista-gustos {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 20px;
-            padding: 20px;
-        }
-        .tarjeta-gusto {
-            background: #fff;
-            padding: 20px;
-            border-radius: 15px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-            text-align: center;
-            transition: transform 0.3s;
-        }
-        .tarjeta-gusto:hover {
-            transform: translateY(-10px);
-        }
-    </style>
+    <title>Mi Perfil Personal | Hansel Antonio García Gutiérrez</title>
+    <link rel="stylesheet" href="../css/personales.css">
 </head>
 
 <body>
 
-    <header class="main-header">
-        <nav aria-label="Menú principal">
-            <ul>
-                <li><a href="../index.html">Regresar a la Veterinaria</a></li>
-            </ul>
-        </nav>
-    </header>
+<header>
+    <nav>
+        <ul>
+            <li><a href="menu-datos-personales.html">Nuestros Integrantes</a></li>
+            <li><a href="angel-garcia.html">Ángel García</a></li>
+            <li><a href="esteban-madonado.html">Esteban Maldonado</a></li>
+            <li><a href="hansel-garcia.html">Hansel García</a></li>
+            <li><a href="jose-coy.html">José Coy</a></li>
+            <li><a href="mario-hernandez.html">Mario Hernández</a></li>
+        </ul>
+    </nav>
+</header>
 
-    <main>
-        <section class="perfil-hero">
-            <h1>¡Hola, soy Hansel Antonio Garcia Gutierrez!</h1>
-            <p>Estudiante de informatica</p>
-        </section>
+<main>
 
-        <section class="section-compromiso">
-            <h2>Sobre mí</h2>
-            <p>
-                Más allá de la programación, soy una persona curiosa que siempre está 
-                buscando aprender algo nuevo.
-            </p>
-        </section>
+    <section class="perfil-hero">
+        <h1>¡Hola, soy Hansel Antonio García Gutiérrez! 👋</h1>
+        <p>Estudiante de informática</p>
+    </section>
 
-        <section class="section-servicios">
-            <h2 style="text-align: center; width: 100%;">Mis gustos 🌟</h2>
-            
-            <div class="lista-gustos">
-                <article class="tarjeta-gusto">
-                    <h3>🎧 Música</h3>
-                    <p>Me encanta escuchar música, mis artistas favorito del momento son BadBunny, Feid y Eslabon Armado.</p>
-                </article>
+    <section class="section-compromiso">
+        <h2>Sobre mí</h2>
+        <p>
+            Más allá de la programación, soy una persona curiosa que siempre está
+            buscando aprender algo nuevo.
+        </p>
+    </section>
 
-                <article class="tarjeta-gusto">
-                    <h3>🎮 Videojuegos</h3>
-                    <p>Disfruto jugar mucho videojuegos que sean de cualquier tipo.</p>
-                </article>
+    <section class="section-servicios">
+        <h2>Mis gustos 🌟</h2>
 
-                <article class="tarjeta-gusto">
-                    <h3>🍕 Comida</h3>
-                    <p>Me gusta comer de todo y probar cosas nuevas, mi comida favorita es la pizza.</p>
-                </article>
+        <div class="cards">
+            <div class="card">
+                <span>🎧</span>
+                <h3>Música</h3>
+                <p>
+                    Me encanta escuchar música. Mis artistas favoritos del momento son
+                    Bad Bunny, Feid y Eslabón Armado.
+                </p>
             </div>
-        </section>
 
-    </main>
+            <div class="card">
+                <span>🎮</span>
+                <h3>Videojuegos</h3>
+                <p>
+                    Disfruto jugar videojuegos de todo tipo en mi tiempo libre.
+                </p>
+            </div>
 
-    <footer style="margin-top: 50px;">
-        <p>Conectemos: hgarcia-2025122@kinal.edu.gt</p>
-        <p>&copy; 2026 - Hecho por Hansel Antonio Garcia Gutierrez</p>
-    </footer>
+            <div class="card">
+                <span>🍕</span>
+                <h3>Comida</h3>
+                <p>
+                    Me gusta probar cosas nuevas. Mi comida favorita es la pizza.
+                </p>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <p>📧 hgarcia-2025122@kinal.edu.gt</p>
+    <p>© 2026 – Hecho por Hansel Antonio García Gutiérrez</p>
+</footer>
 
 </body>
-
 </html>
