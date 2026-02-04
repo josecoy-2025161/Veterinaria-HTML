@@ -34,15 +34,25 @@ veterinaria-huellitas/
 │   ├── tienda.html
 │   └── contacto.html
 │
+├── vistas-personales/
+│   ├── angel-garcia.html
+│   ├── esteban-madonado.html
+│   ├── hansel-garcia.html
+│   ├── jose-coy.html
+│   ├── mario-hernandez.html
+│   └── menu-datos-personales.html
+│
 ├── css/
-│   └── styles.css
+│   ├── styles.css
+│   └── personales.css
 │
 ├── img/
 │   ├── menu/
 │   │   ├── hero-mascotas.jpg
 │   │   ├── consulta.jpg
 │   │   ├── mascotas.jpg
-│   │   └── tienda.jpg
+│   │   ├── tienda.jpg
+│   │   └── integrantes-banner.jpg
 │   │
 │   ├── tienda/
 │   │   ├── accesorio.jpg
@@ -57,7 +67,6 @@ veterinaria-huellitas/
 │       └── vet4.jpg
 │
 ├── LICENSE
-│
 └── README.md
 
 ---
